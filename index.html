@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimarket</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>
+            <marquee>SELAMAT DATANG DI MINIMARKET</marquee>
+        </h1>
+
+        <div id="product-list">
+            <center>
+                <h2>DAFTAR PRODUK</h2>
+            </center>
+
+            <!-- ID harus sama dengan JavaScript -->
+            <div id="products" class="product-container"></div>
+        </div>
+
+        <div id="cart">
+            <h2>Keranjang Belanja</h2>
+            <ul id="cart-items"></ul>
+            <p>Total = Rp. <span id="total-price">0</span></p>
+            <button id="checkout-btn">Checkout</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
